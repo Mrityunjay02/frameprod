@@ -1,0 +1,13 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-orchestration/config",
+  "configurations": {
+    "production": {
+      "appLocation": ".",
+      "outputLocation": "build",
+      "appBuildCommand": "npm run build",
+      "appDevserverUrl": "http://localhost:3000",
+      "run": "npm start",
+      "appDevserverUrlTemplate": "http://localhost:3000"
+    }
+  }
+}
